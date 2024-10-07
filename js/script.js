@@ -566,15 +566,6 @@ window.addEventListener("resize", () => {
 
 
 
-
-
-
-
-
-
-
-
-
 document.getElementById('send-btn').addEventListener('click', function() {
   const userInput = document.getElementById('user-input');
   const userMessage = userInput.value.trim();
@@ -590,7 +581,7 @@ document.getElementById('send-btn').addEventListener('click', function() {
       
       // Responder
       const botResponseElement = document.createElement('div');
-      botResponseElement.className = 'message';
+      botResponseElement.className = 'message bot-message'; // Aquí se agrega la clase bot-message
       botResponseElement.textContent = `Bot: I received your message: "${userMessage}"`;
       chatboxBody.appendChild(botResponseElement);
 
