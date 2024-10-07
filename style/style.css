@@ -147,6 +147,14 @@ input[type="text"] {
     color: #120935;
 }
 
+.bot-message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #d1e7dd; /* Cambia este color según tu preferencia */
+}
+
+
 
 
 
@@ -207,25 +215,37 @@ button:hover {
     font-size:x-large;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    background-color: #120935;
-
+    background-color: #114887;
+    height: 7vh;
 }
+
+/*
 
 .logo img {
-    height: 100px; /* Ajusta el tamaño del logo */
+    height: 100px; 
 }
+
+
+*/
 
 .nav-links {
-    list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    background-color: transparent;
+    position: center;
+    list-style-type: none; 
+    margin: 0 auto;
+
 }
 
+
+
+/*
 .nav-links li {
-    margin-left: 0px; /* Espaciado entre los enlaces */
+    margin-left: 0px; 
 }
 
 .nav-links a {
@@ -236,18 +256,22 @@ button:hover {
 }
 
 .nav-links a:hover {
-    background-color: #114887; /* Color de fondo al pasar el mouse */
-    border-radius: 0px; /* Bordes redondeados */
+    background-color: #114887; 
+    border-radius: 0px; 
 }
 
+*/
 
 
 
-
-
-
-
-
+.desc{
+    color: white;
+    position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
 
 
 
